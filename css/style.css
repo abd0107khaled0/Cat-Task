@@ -1,0 +1,94 @@
+body {
+  min-width: 425px;
+  margin: 0;
+}
+.container {
+  padding: 10px;
+}
+/* start send-me  */
+
+.send-me {
+  background-image: url(/17.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.7;
+}
+.send-me .boxs {
+  padding: 80px 150px;
+}
+.send-me form .box-l {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px 50px 0;
+}
+.send-me form .box-l .box {
+  width: 45%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.send-me form .box-l .box select{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.send-me form label {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.send-me form input,
+.send-me form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  caret-color: #00000054;
+  font-size: 20px;
+}
+.send-me form .m-t {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px 50px 0;
+  flex-direction: column;
+}
+.send-me form .m-t .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.send-me form .m-t .box input,
+.send-me form .m-t .box textarea {
+  width: 100%;
+}
+.send-me form .m-t .box textarea {
+  min-height: 250px;
+}
+.send-me form button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  caret-color: #00000054;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .send-me .boxs {
+    padding: 80px 10px;
+  }
+  .send-me form .box-l {
+    margin: 50px 0;
+  }
+  .send-me form .m-t {
+    margin: 50px 0;
+  }
+}
+/* end send-me*/
